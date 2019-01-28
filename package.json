@@ -1,0 +1,41 @@
+{
+  "name": "node-red-contrib-protonmail",
+  "version": "1.0.0",
+  "description": "Node-RED node to send encrypted email through ProtonMail",
+  "scripts": {
+    "test": "nyc mocha tests --recursive --timeout 15000",
+    "lint": "eslint . || true"
+  },
+  "repository": "github:justinkalland/protonmail-api",
+  "author": "Justin Kalland <justin@kalland.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justinkalland/node-red-contrib-protonmail/issues"
+  },
+  "homepage": "https://github.com/justinkalland/node-red-contrib-protonmail#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint"
+  },
+  "eslintConfig": {
+    "extends": "jk"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint-config-jk": "^1.4.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  },
+  "dependencies": {
+    "protonmail-api": "^1.0.1"
+  },
+  "node-red": {
+    "nodes": {
+      "protonmail": "index.js"
+    }
+  }
+}
