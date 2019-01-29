@@ -1,0 +1,26 @@
+{
+  "protonmail": {
+      "default": {
+        "subject": "Message from Node-RED"
+      },
+      "label": {
+          "to": "To",
+          "username": "Username",
+          "password": "Password"
+      },
+      "status": {
+          "nopayload": "missing payload",
+          "nousername": "missing username",
+          "nopassword": "missing password",
+          "connecting": "connecting",
+          "unabletoconnect": "error connecting",
+          "sending": "sending",
+          "sendfailed": "error sending"
+      },
+      "errors": {
+          "nopayload": "No payload to send",
+          "nousername": "No username set",
+          "nopassword": "No password set"
+      }
+  }
+}

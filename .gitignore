@@ -19,5 +19,4 @@ package-lock.json
 *.gz
 
 # app
-.nyc_output
 test.js
