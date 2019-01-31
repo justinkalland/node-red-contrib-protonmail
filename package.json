@@ -7,7 +7,7 @@
     "test": "mocha tests --recursive",
     "lint": "eslint . || true"
   },
-  "repository": "github:justinkalland/protonmail-api",
+  "repository": "github:justinkalland/node-red-contrib-protonmail",
   "author": "Justin Kalland <justin@kalland.ch>",
   "license": "MIT",
   "bugs": {
