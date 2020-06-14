@@ -2,13 +2,15 @@
   "name": "node-red-contrib-protonmail",
   "version": "1.0.0",
   "description": "Node-RED node to send encrypted email through ProtonMail",
-  "keywords": [ "node-red" ],
+  "keywords": [
+    "node-red"
+  ],
   "scripts": {
     "test": "mocha tests --recursive",
     "lint": "eslint . || true"
   },
   "repository": "github:justinkalland/node-red-contrib-protonmail",
-  "author": "Justin Kalland <justin@kalland.ch>",
+  "author": "Justin Kalland <justin@kalland.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/justinkalland/node-red-contrib-protonmail/issues"
@@ -27,15 +29,15 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint-config-jk": "^1.4.0",
-    "mocha": "^5.2.0",
-    "node-red": "^0.19.5",
-    "node-red-node-test-helper": "node-red/node-red-node-test-helper",
-    "p-wait-for": "^2.0.1",
-    "sinon": "^7.2.3"
+    "eslint-config-jk": "^1.6.0",
+    "mocha": "^8.0.1",
+    "node-red": "^1.0.6",
+    "node-red-node-test-helper": "github:node-red/node-red-node-test-helper",
+    "p-wait-for": "^3.1.0",
+    "sinon": "^9.0.2"
   },
   "dependencies": {
-    "protonmail-api": "^1.0.1"
+    "protonmail-api": "^2.0.0"
   },
   "node-red": {
     "nodes": {
